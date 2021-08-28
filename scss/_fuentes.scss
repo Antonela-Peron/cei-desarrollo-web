@@ -38,6 +38,19 @@ $parrafoDesk: 2rem;
 }
 .testimonios__texto--fuente{
 	font-family: $roboto;
-	font-size: 2rem;
+	font-size: $parrafoDesk;
 	text-align: justify;
+}
+.contacto__titulo--fuente{
+	font-family: $roboto;
+	font-size: 5rem;
+	text-align: center;
+}
+.contacto__info--fuente{
+	font-family: $roboto;
+	font-size: 3rem;
+}
+.contacto__form--fuente{
+	font-family: $roboto;
+	font-size: 2rem;
 }

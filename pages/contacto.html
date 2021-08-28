@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>CEI - Preguntas Frecuentes</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../css/estilo.css">
 	</head>
-	<body>
+	<body class="container-fluid body__marginYpadding--quitar">
 		<!-- INICIO HEADER -->
-		<header>
+		<header class="container-fluid headFoot__fondo--gris header__borde--inferior">
 			<!-- LOGO DEL LUGAR -->
-			<img src="../assets/logo-cei.png" alt="logo del lugar">
+			<div class="row justify-content-center header__logo--padding">
+				<img src="../assets/logo-cei.png" alt="logo del lugar" class="col-lg-5">
+			</div>
 			<!-- FIN LOGO -->
 			<!-- INICIO BARRA NAVEGACION -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<nav class="navbar navbar-expand-lg navbar-light row nav__fuente--tamaño">
+				  <button class="navbar-toggler col-lg-12" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
-				  <div class="collapse navbar-collapse" id="navbarNav">
-				    <ul class="navbar-nav">
-					      <li class="nav-item">
+				  <div class="collapse navbar-collapse row" id="navbarNav">
+				    <ul class="navbar-nav col col-lg-12 justify-content-around">
+					      <li class="nav-item ">
 					        <a class="nav-link" href="../index.html">INICIO</a>
 					      </li>
 					      <li class="nav-item">
@@ -27,7 +35,7 @@
 					      <li class="nav-item">
 					        <a class="nav-link" href="preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a>
 					      </li>
-					      <li class="nav-item">
+					      <li class="nav-item ">
 					        <a class="nav-link" href="testimonios.html">TESTIMONIOS</a>
 					      </li>
 					      <li class="nav-item active">
@@ -40,62 +48,71 @@
 		</header>
 		<!-- FIN HEADER -->
 		<!-- INICIO CONTENIDO DE PAGINA -->
-		<main>
+		<section class="row">
+			<h3 class=" col-lg-12 contacto__titulo--fuente contacto__titulo--margin">Contactanos</h3>
+		</section>				
+		<section class="row justify-content-around contactos__margen--superior">
 			<!-- INICIO DATOS DE CONTACTO -->
-			<section>
-				<h3>Contactanos</h3>
-			</section>
-			<section>
+			<article class="col-lg-5">
 				<div>
-					<p>Telefono 221-420-7682</p>
+					<p class="contacto__info--fuente contacto__info--borde contacto__info--padding"><img src="../assets/telefono-1.png" alt="logo telefono" width="60px"> 221-420-7682</p>
 				</div>
 				<div>
-					<p>Whatsapp 221-527-2481</p>
+					<p class="contacto__info--fuente contacto__info--borde contacto__info--margin contacto__info--padding"><img src="../assets/whatsapp-1.png" alt="logo whatsapp" width="60px"> 221-527-2481</p>
 				</div>
 				<div>
-					<p>Email cei_contacto@gmail.com</p>
+					<p class="contacto__info--fuente contacto__info--borde contacto__info--margin contacto__info--padding"><img src="../assets/email-1.png" alt="logo email" width="60px"> cei_contacto@gmail.com</p>
 				</div>
-			</section>
+			</article>			
 			<!-- FIN DATOS DE CONTACTO -->
 			<!-- INICIO FORMULARIO DE CONTACTO -->
-			<section>
-				<form action="">
-					<input type="text" placeholder="Nombre" class="inputs"> 
-					<input type="email" placeholder="Email" class="inputs">
-					<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="inputs"></textarea>
-					<input type="submit" value="Enviar" class="inputs">
+			<article class="col-lg-5">
+				<form action="" class="contacto__formulario--flex">
+					<input type="text" placeholder="Nombre" class="inputs contacto__form--fuente contacto__formulario--borde"> 
+					<input type="email" placeholder="Email" class="inputs contacto__form--fuente contacto__formulario--borde contacto__formulario--margin">
+					<textarea name="" id="" cols="20" rows="5" placeholder="Mensaje" class="inputs contacto__form--fuente contacto__formulario--borde contacto__formulario--margin"></textarea>
+					<input type="submit" value="Enviar" class="inputs contacto__form--fuente contacto__formulario--borde contacto__formulario--margin">
 				</form>
-			</section>
-			<!-- FIN FORMULARIO DE CONTACTO -->
-		</main>
+			</article>	
+		</section>
+		<!-- FIN FORMULARIO DE CONTACTO -->
 		<!-- FIN CONTENIDO DE PAGINA -->
 		<!-- INICIO DEL FOOTER -->
-		<footer>
+		<footer class="row justify-content-around headFoot__fondo--gris footer__borde--superior index__margen--superior footer__padding--top">
 			<!-- INICIO LOGO -->
-			<div>
-				<a href="../index.html"><img src="../assets/logo-cei.png" alt="logo del lugar" width="300px"></a>
+			<div class="col-lg-4 footer__flex ">
+				<a href="index.html"><img src="../assets/logo-cei.png" alt="logo del lugar" width="300px"></a>
 			</div>
 			<!-- FIN LOGO -->
 			<!-- INICIO LINKS DE REDES -->
-			<div>
-				<h3>Redes Sociales</h3>
-				<a href="https://www.facebook.com"><img src="../assets/facebook.png" alt="logo de facebook" width="50px"></a>
-				<a href="https://www.instagram.com"><img src="../assets/instagram.png" alt="logo de instagram" width="50px"></a>
-				<a href="https://www.youtube.com"><img src="../assets/youtube.png" alt="logo de youtube" width="50px"></a>
+			<div class="col-lg-4 footer__flex">
+				<h3 class="footer__subtitulo--fuente footer__subtitulo--paddingB ">Redes Sociales</h3>
+				<div>
+					<a href="https://www.facebook.com"><img src="../assets/facebook.png" alt="logo de facebook" class="footer__iconos--margin" width="50px"></a>
+					<a href="https://www.intagram.com"><img src="../assets/instagram.png" alt="logo de instagram"  class="footer__iconos--margin" width="50px"></a>
+					<a href="https://www.youtube.com"><img src="../assets/youtube.png" alt="logo de youtube" class="footer__iconos--margin" width="50px"></a>
+				</div>	
 			</div>
 			<!-- FIN LINKS DE REDES -->
 			<!-- INICIO DATOS DE CONTACTO -->
-			<div>
-				<h3>Contactanos</h3>
-				<p><img src="../assets/telefono.png" alt="logo de telefono" width="40px">   221-420-7682</p>
-				<p><img src="../assets/whatsapp.png" alt="logo de whatsapp" width="40px">   221-527-2481</p>			
-				<p><img src="../assets/email.png" alt="logo de email" width="40px">   cei_contacto@gmail.com</p>
+			<div class="col-lg-4 footer__flex ">
+				<h3 class="footer__subtitulo--fuente footer__subtitulo--paddingB">Contactanos</h3>
+				<div>
+					<p class="footer__info--fuente"><img src="../assets/telefono.png" alt="logo de telefono" width="40px">    221-420-7682</p>					
+					<p class="footer__info--fuente"><img src="../assets/whatsapp.png" alt="logo de whatsapp" width="40px">   221-527-2481</p>
+					<p class="footer__info--fuente"><img src="../assets/email.png" alt="logo de email" width="40px">   cei_contacto@gmail.com</p>
+				</div>	
 			</div>
 			<!-- FIN DATOS DE CONTACTO -->
 		</footer>
 		<!-- FIN FOOTER -->
+		<!-- INICIO COPYRIGHT -->
+		<div class="row justify-content-center headFoot__fondo--gris footer__padding--top">
+			<p class="col-lg-6 copy__fuente">© Todos los derechos reservados. Desarrollado por Antonela Peron</p>
+		</div>
+		<!-- FIN COPYRIGHT -->
 		<!-- LINKS DE JAVA PARA COMPONENTES DE BOOTSTRAP -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>	
 	</body>
-</html>			
+</html>
