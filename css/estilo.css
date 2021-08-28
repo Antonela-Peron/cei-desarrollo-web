@@ -44,6 +44,13 @@
 .pregFrec__margen--superior {
   margin-top: 50px; }
 
+.testimonios__margen--superior {
+  margin-top: 100px;
+  padding-bottom: 50px; }
+
+.test__imgs--marginT {
+  margin-top: 20px; }
+
 html {
   font-size: 62.5%; }
 
@@ -73,6 +80,16 @@ html {
   font-size: 1.3rem;
   text-align: center; }
 
+.testimonios__nombres--fuente {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  text-align: center; }
+
+.testimonios__texto--fuente {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: justify; }
+
 .headFoot__fondo--gris {
   background-color: #ABABAB; }
 
@@ -81,3 +98,16 @@ html {
 
 .footer__borde--superior {
   border-top: 1px solid black; }
+
+.test__cards--radio {
+  border-radius: 10%;
+  box-shadow: 9px 9px 5px 0px #939393; }
+
+.test__cards--borde {
+  border: solid 5px #2D4C84;
+  border-radius: 10%;
+  box-shadow: 9px 9px 5px 0px #939393;
+  background-color: #C4C4C4; }
+
+.fondo {
+  background-image: url("../assets/fondo.jpg"); }
