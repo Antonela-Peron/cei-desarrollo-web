@@ -31,11 +31,18 @@
 
 .footer__padding--top {
   padding-top: 20px; }
-  .footer__padding--top .footer__subtitulo--paddingB {
-    padding-bottom: 10px; }
+
+.footer__subtitulo--paddingB {
+  padding-bottom: 10px; }
 
 .footer__iconos--margin {
   margin: 0px 5px; }
+
+.cards__respuestas--paddingL {
+  padding: 0px 50px; }
+
+.pregFrec__margen--superior {
+  margin-top: 50px; }
 
 html {
   font-size: 62.5%; }
