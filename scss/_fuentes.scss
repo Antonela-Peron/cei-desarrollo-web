@@ -1,0 +1,33 @@
+html{
+	font-size: 62.5%;
+}
+
+$roboto: 'Roboto', sans-serif;
+$parrafoDesk: 2rem;
+
+.nav__fuente--tamaño{
+	font-family: $roboto;
+	font-size: 2.5rem;
+}
+.cuerpo__parrafos--fuente{
+	font-family: $roboto;
+	font-size: $parrafoDesk;
+	text-align: justify;
+}
+.cuerpo__subtitulos--fuente{
+	font-family: $roboto;
+	font-size: 3.5rem;
+}
+.footer__subtitulo--fuente{
+	font-family: $roboto;
+	font-size: 2rem;
+}
+.footer__info--fuente{
+	font-family: $roboto;
+	font-size: 1.5rem;
+}
+.copy__fuente{
+	font-family: $roboto;
+	font-size: 1.3rem;
+	text-align: center;
+}
