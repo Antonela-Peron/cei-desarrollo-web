@@ -83,6 +83,16 @@
 .idiomas__tabla--margen {
   margin-top: 20px; }
 
+.idiomas__tabla--centrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.idiomas__boton--centrado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 .error__imgs--flex {
   display: flex;
   flex-direction: row;
@@ -119,11 +129,12 @@ html {
 
 .footer__subtitulo--fuente {
   font-family: "Roboto", sans-serif;
-  font-size: 2rem; }
+  font-size: 2.5rem; }
 
 .footer__info--fuente {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem; }
+  font-size: 1.8rem;
+  font-weight: bold; }
 
 .copy__fuente {
   font-family: "Roboto", sans-serif;
@@ -223,8 +234,13 @@ html {
   background-image: url("../assets/fondo-estrellas.jpg");
   background-size: 100%; }
 
+.index__banner--estilo {
+  border: 1px solid white;
+  border-radius: 40px;
+  box-shadow: 9px 9px 5px 0px #939393; }
+
 .nav__transicion--trasladar {
-  transition: transform 1s; }
+  transition: transform 0.5s; }
 
 .nav__transicion--trasladar:hover {
   transform: translateY(-20px); }

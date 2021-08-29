@@ -83,6 +83,16 @@
 .idiomas__tabla--margen{
 	margin-top: 20px;
 }
+.idiomas__tabla--centrada{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.idiomas__boton--centrado{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 .error__imgs--flex{
 	display: flex; 
 	flex-direction: row;
