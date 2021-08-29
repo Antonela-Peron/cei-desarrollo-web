@@ -71,6 +71,12 @@
 .contacto__titulo--margin {
   margin-top: 50px; }
 
+.idiomas__margen--superior {
+  margin-top: 50px; }
+
+.idiomas__tabla--margen {
+  margin-top: 20px; }
+
 html {
   font-size: 62.5%; }
 
@@ -123,6 +129,11 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 2rem; }
 
+.idiomas__subtitulo--fuente {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold; }
+
 .headFoot__fondo--gris {
   background-color: #ABABAB; }
 
@@ -152,4 +163,18 @@ html {
   border: solid 5px #2D4C84;
   border-radius: 10px;
   background-color: #C4C4C4;
+  box-shadow: 9px 9px 5px 0px #939393; }
+
+.cuerpo__tabla--bordes {
+  border: solid 5px #2D4C84;
+  border-radius: 20px;
+  background-color: #C4C4C4;
+  box-shadow: 9px 9px 5px 0px #939393; }
+
+.idiomas__tabla--formato {
+  border: solid 2px #2D4C84;
+  padding: 0px 10px; }
+
+.idiomas__boton--estilo {
+  border: 5px solid black;
   box-shadow: 9px 9px 5px 0px #939393; }
