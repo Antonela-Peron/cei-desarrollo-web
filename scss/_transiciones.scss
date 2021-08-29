@@ -27,3 +27,9 @@
 	box-shadow: inset -9px -9px 5px 0px #939393;
 	transform: translate(9px, 9px);
 }
+.error__img--transicion{
+	transition: transform 1s;
+}
+.error__img--transicion:hover{
+	transform: rotate(-20deg);
+}

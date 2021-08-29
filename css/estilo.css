@@ -83,6 +83,24 @@
 .idiomas__tabla--margen {
   margin-top: 20px; }
 
+.error__imgs--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px; }
+
+.error__texto--flex {
+  margin-top: 50px;
+  padding: 0px 50px; }
+
+.error__imgs--paddingR {
+  padding-right: 50px; }
+
+.error__imgs--paddingL {
+  padding-left: 50px; }
+
 html {
   font-size: 62.5%; }
 
@@ -140,6 +158,21 @@ html {
   font-size: 1.5rem;
   font-weight: bold; }
 
+.error__texto--fuente {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #2D4C84;
+  font-size: 8rem;
+  -webkit-text-stroke: 2px #939393;
+  font-weight: bold; }
+
+.error__indicacion--fuente {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #939393;
+  -webkit-text-stroke: 1px #2D4C84;
+  font-size: 3rem; }
+
 .headFoot__fondo--gris {
   background-color: #ABABAB; }
 
@@ -186,6 +219,10 @@ html {
   border-radius: 40px;
   box-shadow: 9px 9px 5px 0px #939393; }
 
+.error__fondo--imagen {
+  background-image: url("../assets/fondo-estrellas.jpg");
+  background-size: 100%; }
+
 .nav__transicion--trasladar {
   transition: transform 1s; }
 
@@ -214,3 +251,9 @@ html {
 .formulario__boton--transicion:focus {
   box-shadow: inset -9px -9px 5px 0px #939393;
   transform: translate(9px, 9px); }
+
+.error__img--transicion {
+  transition: transform 1s; }
+
+.error__img--transicion:hover {
+  transform: rotate(-20deg); }

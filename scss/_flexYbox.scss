@@ -83,3 +83,21 @@
 .idiomas__tabla--margen{
 	margin-top: 20px;
 }
+.error__imgs--flex{
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0px;
+}
+.error__texto--flex{
+	margin-top: 50px;
+	padding: 0px 50px;
+}
+.error__imgs--paddingR{
+	padding-right: 50px;
+}
+.error__imgs--paddingL{
+	padding-left: 50px;
+}
