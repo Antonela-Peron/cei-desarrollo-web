@@ -15,6 +15,13 @@
   justify-content: flex-start;
   align-items: center; }
 
+@media only screen and (max-width: 890px) {
+  .footer__mobile--paddingT {
+    padding-top: 20px; }
+  .nav__padding--inferiorLeft {
+    padding-bottom: 20px;
+    padding-left: 30px; } }
+
 .header__logo--centrado {
   display: flex;
   flex-direction: row;
@@ -64,6 +71,12 @@
 
 .test__imgs--marginT {
   margin-top: 20px; }
+
+.contacto__info--flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .contacto__formulario--flex {
   display: flex;
@@ -265,6 +278,9 @@ html {
 .nav__transicion--trasladar:hover {
   transform: translateY(-20px); }
 
+.header__navHamb--agrandar {
+  transform: scale(2); }
+
 .footer__transicion--escalar {
   transition: transform 1s; }
 
@@ -276,7 +292,7 @@ html {
   transition: transform 1s; }
 
 .preguntas__icono--trasladar:hover {
-  transform: translateX(10px); }
+  transform: translateX(8px); }
 
 .formulario__transicion--scale {
   transition: all 1s; }
@@ -300,3 +316,68 @@ html {
 
 .contacto__info--tamaño {
   width: 400px; }
+
+.index__banner--tamaños {
+  width: 800px; }
+
+.footer__logo--tamaños {
+  width: 150px; }
+
+.footer__iconos--tamaños {
+  width: 60px; }
+
+.index__separador--tamaños {
+  width: 65%; }
+
+.idiomas__boton--tamaño {
+  width: 500px; }
+
+@media only screen and (min-width: 691px) and (max-width: 890px) {
+  .index__banner--tamaños {
+    width: 700px; }
+  .idiomas__tabla--paddingT {
+    padding-top: 50px;
+    margin-top: 50px; }
+  .idiomas__boton--tamaño {
+    width: 350px; }
+  .preguntas__subtitulos--fuente {
+    font-size: 2.5rem; }
+  .test__card--marginT {
+    margin-top: 50px; }
+  .testimonios__margen--superior {
+    margin-top: 50px;
+    padding-bottom: 0px; }
+  .formulario__mobile--marginT {
+    margin-top: 50px; }
+  .nav__transicion--trasladar:hover {
+    transform: translateX(30px); } }
+
+@media only screen and (max-width: 690px) {
+  .index__banner--tamaños {
+    width: 500px; }
+  .footer__logo--tamaños {
+    width: 100px; }
+  .footer__subtitulo--fuente {
+    font-size: 2.2rem; }
+  .footer__info--fuente {
+    font-size: 1.5rem; }
+  .footer__iconos--tamaños {
+    width: 50px; }
+  .index__separador--tamaños {
+    width: 80%; }
+  .idiomas__tabla--paddingT {
+    padding-top: 50px;
+    margin-top: 50px; }
+  .idiomas__boton--tamaño {
+    width: 250px; }
+  .preguntas__subtitulos--fuente {
+    font-size: 2rem; }
+  .test__card--marginT {
+    margin-top: 50px; }
+  .testimonios__margen--superior {
+    margin-top: 50px;
+    padding-bottom: 0px; }
+  .formulario__mobile--marginT {
+    margin-top: 50px; }
+  .nav__transicion--trasladar:hover {
+    transform: translateX(30px); } }

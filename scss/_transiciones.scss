@@ -4,6 +4,9 @@
 .nav__transicion--trasladar:hover{
 	transform: translateY(-20px);
 }
+.header__navHamb--agrandar{
+	transform: scale(2);
+}
 .footer__transicion--escalar{
 	transition: transform 1s;
 }
@@ -15,7 +18,7 @@
 	transition: transform 1s;
 }
 .preguntas__icono--trasladar:hover{
-	transform: translateX(10px);
+	transform: translateX(8px);
 }
 .formulario__transicion--scale{
 	transition: all 1s;

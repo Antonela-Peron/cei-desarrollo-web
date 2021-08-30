@@ -15,6 +15,16 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+//mobile
+@media only screen and (max-width: 890px) {
+	.footer__mobile--paddingT{
+		padding-top: 20px;
+	}
+	.nav__padding--inferiorLeft{
+		padding-bottom: 20px;
+		padding-left: 30px;
+	}
+}	
 .header__logo--centrado{
 	display: flex;
 	flex-direction: row;
@@ -64,6 +74,12 @@
 }
 .test__imgs--marginT{
 	margin-top: 20px;
+}
+.contacto__info--flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .contacto__formulario--flex{
 	display: flex;
