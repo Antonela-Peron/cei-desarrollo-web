@@ -20,6 +20,13 @@
 .idiomas__boton--tamaño{
 	width: 500px;
 }
+.error__imgs--tamaños{
+	width: 250px;
+}
+.error__imgs2--tamaños{
+	width: 300px
+}
+
 //medium
 @media only screen and (min-width: 691px) and (max-width: 890px) {
 	.index__banner--tamaños{
@@ -47,6 +54,18 @@
 	}
 	.nav__transicion--trasladar:hover{
 		transform: translateX(30px);
+	}
+	.error__imgs--tamaños{
+		width: 200px;
+	}
+	.error__imgs2--tamaños{
+		width: 250px
+	}
+	.error__texto--fuente{
+		font-size: 5rem;
+	}
+	.error__indicacion--fuente{
+		font-size: 2rem;
 	}
 }	
 //mobile
@@ -91,5 +110,17 @@
 	}
 	.nav__transicion--trasladar:hover{
 		transform: translateX(30px);
+	}
+	.error__imgs--tamaños{
+		width: 150px;
+	}
+	.error__imgs2--tamaños{
+		width: 150px
+	}
+	.error__texto--fuente{
+		font-size: 4rem;
+	}
+	.error__indicacion--fuente{
+		font-size: 1rem;
 	}
 }	

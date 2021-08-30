@@ -31,9 +31,3 @@
 	transform: translate(9px, 9px);
 	background-color: #8a8a8a;
 }
-.error__img--transicion{
-	transition: transform 1s;
-}
-.error__img--transicion:hover{
-	transform: rotate(-20deg);
-}
