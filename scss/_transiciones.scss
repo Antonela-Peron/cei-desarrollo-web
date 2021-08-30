@@ -18,10 +18,10 @@
 	transition: transform 1s;
 }
 .preguntas__icono--trasladar:hover{
-	transform: translateX(8px);
+	transform: translateX(5px);
 }
 .formulario__transicion--scale{
-	transition: all 1s;
+	transition: all 0.5s;
 }
 .formulario__transicion--scale:focus{
 	transform: scale(1.2);

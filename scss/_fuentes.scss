@@ -3,7 +3,6 @@ html{
 }
 
 $roboto: 'Roboto', sans-serif;
-$parrafoDesk: 2rem;
 
 .nav__fuente--tamaño{
 	font-family: $roboto;
@@ -11,7 +10,7 @@ $parrafoDesk: 2rem;
 }
 .cuerpo__parrafos--fuente{
 	font-family: $roboto;
-	font-size: $parrafoDesk;
+	font-size: 2rem;
 	text-align: justify;
 }
 .index__parrafos--altoLinea{
@@ -39,6 +38,11 @@ $parrafoDesk: 2rem;
 	font-family: $roboto;
 	font-size: 3rem;
 }
+.preguntas__parrafos--fuente{
+	font-family: $roboto;
+	font-size: 2rem;
+	text-align: justify;
+}
 .testimonios__nombres--fuente{
 	font-family: $roboto;
 	font-size: 2.5rem;
@@ -46,7 +50,7 @@ $parrafoDesk: 2rem;
 }
 .testimonios__texto--fuente{
 	font-family: $roboto;
-	font-size: $parrafoDesk;
+	font-size: 2rem;
 	text-align: justify;
 }
 .contacto__titulo--fuente{

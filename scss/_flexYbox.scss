@@ -3,7 +3,12 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-
+.row{
+	margin: 0px;
+}
+.container{
+	margin: 0px;
+}	
 .body__marginYpadding--quitar{
 	margin: 0px;
 	padding: 0px;
@@ -14,16 +19,6 @@
 	flex-wrap: no-wrap;
 	justify-content: flex-start;
 	align-items: center;
-}
-//mobile
-@media only screen and (max-width: 890px) {
-	.footer__mobile--paddingT{
-		padding-top: 20px;
-	}
-	.nav__padding--inferiorLeft{
-		padding-bottom: 20px;
-		padding-left: 30px;
-	}
 }	
 .header__logo--centrado{
 	display: flex;
@@ -67,6 +62,11 @@
 }
 .pregFrec__margen--superior{
 	margin-top: 100px;
+}
+.preg__acordeon--centrado{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 .testimonios__margen--superior{
 	margin-top: 100px;
