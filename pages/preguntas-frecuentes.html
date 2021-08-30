@@ -17,7 +17,9 @@
 		<header class="container-fluid headFoot__fondo--gris header__borde--inferior">
 			<!-- LOGO DEL LUGAR -->
 			<div class="row justify-content-center header__logo--padding">
-				<img src="../assets/logo-cei.png" alt="logo del lugar" class="col-lg-5">
+				<div class="col-lg-12 header__logo--centrado">
+				<a href="../index.html"><img src="../assets/logo-cei.png" alt="logo del lugar" ></a>
+				</div>
 			</div>
 			<!-- FIN LOGO -->
 			<!-- INICIO BARRA NAVEGACION -->
@@ -27,19 +29,19 @@
 				  </button>
 				  <div class="collapse navbar-collapse row" id="navbarNav">
 				    <ul class="navbar-nav col col-lg-12 justify-content-around">
-					      <li class="nav-item ">
+					      <li class="nav-item nav__transicion--trasladar">
 					        <a class="nav-link" href="../index.html">INICIO</a>
 					      </li>
-					      <li class="nav-item">
+					      <li class="nav-item nav__transicion--trasladar">
 					        <a class="nav-link" href="idiomas.html">IDIOMAS</a>
 					      </li>
-					      <li class="nav-item active">
+					      <li class="nav-item  active nav__transicion--trasladar">
 					        <a class="nav-link" href="preguntas-frecuentes.html">PREGUNTAS FRECUENTES<span class="sr-only">(current)</span></a>
 					      </li>
-					      <li class="nav-item ">
-					        <a class="nav-link" href="testimonios.html">TESTIMONIOS</a>
+					      <li class="nav-item  nav__transicion--trasladar">
+					        <a class="nav-link" href="testimonios.html">OPINIONES</a>
 					      </li>
-					      <li class="nav-item">
+					      <li class="nav-item nav__transicion--trasladar">
 					        <a class="nav-link" href="contacto.html">CONTACTO</a>
 					      </li>
 					</ul>
@@ -51,12 +53,12 @@
 		<!-- INICIO CONTENIDO DE PAGINA -->
 		<main class="row justify-content-center pregFrec__margen--superior">
 			<!-- INICIO PREGUNTAS COLAPSABLES -->
-			<div class="accordion col-lg-8" id="accordionExample">
+			<div class="accordion col-lg-9" id="accordionExample">
 				<!-- PREGUNTA 1 -->
 				<div class="card">
 				    <div class="card-header" id="headingOne">
 				      <h2 class="mb-0">
-				        <button class="btn btn-block text-left cuerpo__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">   ¿Quién puede anotarse a cursar?</button>
+				        <button class="btn btn-block text-left preguntas__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">¿Quién puede anotarse a cursar?</button>
 				      </h2>
 				    </div>
 				    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -67,7 +69,7 @@
 				<div class="card">
 				    <div class="card-header" id="headingTwo">
 				      <h2 class="mb-0">
-				        <button class="btn btn-block text-left cuerpo__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">   No sé en que nivel me corresponde anotarme</button>
+				        <button class="btn btn-block text-left preguntas__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">No sé en que nivel me corresponde anotarme</button>
 				      </h2>
 				    </div>
 				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -78,7 +80,7 @@
 				<div class="card">
 				    <div class="card-header" id="headingThree">
 				      <h2 class="mb-0">
-				        <button class="btn btn-block text-left collapsed cuerpo__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">   ¿Puedo cambiar de horario una vez inscipto?</button>
+				        <button class="btn btn-block text-left collapsed preguntas__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">¿Puedo cambiar de horario una vez inscipto?</button>
 				      </h2>
 				    </div>
 				    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -89,7 +91,7 @@
 				<div class="card">
 				    <div class="card-header" id="headingFour">
 				      <h2 class="mb-0">
-				        <button class="btn btn-block text-left collapsed cuerpo__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">   ¿Qué medios de pago aceptan?</button>
+				        <button class="btn btn-block text-left collapsed preguntas__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">¿Qué medios de pago aceptan?</button>
 				      </h2>
 				    </div>
 				    <div id="collapseFour" class="collapse" aria-labelledby="headingTFour" data-parent="#accordionExample">
@@ -100,7 +102,7 @@
 				<div class="card">
 				    <div class="card-header" id="headingFive">
 				      <h2 class="mb-0">
-				        <button class="btn btn-block text-left cuerpo__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px"class="preguntas__icono--trasladar">    ¿Qué duración tiene los cursos?</button>
+				        <button class="btn btn-block text-left preguntas__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px"class="preguntas__icono--trasladar">¿Qué duración tiene los cursos?</button>
 				      </h2>
 				    </div>
 				    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
@@ -111,7 +113,7 @@
 				<div class="card">
 				    <div class="card-header" id="headingSix">
 				      <h2 class="mb-0">
-				        <button class="btn btn-block text-left cuerpo__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">   ¿Cuantas faltas puedo tener durante el curso?</button>
+				        <button class="btn btn-block text-left preguntas__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">¿Cuantas faltas puedo tener durante el curso?</button>
 				      </h2>
 				    </div>
 				    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
@@ -122,7 +124,7 @@
 				<div class="card">
 				    <div class="card-header" id="headingSeven">
 				      <h2 class="mb-0">
-				        <button class="btn btn-block text-left cuerpo__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">   ¿Se otorgan certificados al finalizar los cursos?</button>
+				        <button class="btn btn-block text-left preguntas__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">¿Se otorgan certificados al finalizar los cursos?</button>
 				      </h2>
 				    </div>
 				    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
@@ -133,7 +135,7 @@
 				<div class="card">
 				    <div class="card-header" id="headingEight">
 				      <h2 class="mb-0">
-				        <button class="btn btn-block text-left cuerpo__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">   ¿Qué validez tienen los certificados?</button>
+				        <button class="btn btn-block text-left preguntas__subtitulos--fuente" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight"><img src="../assets/mayor-que-2.png" alt="signo mayor que" width="50px" class="preguntas__icono--trasladar">¿Qué validez tienen los certificados?</button>
 				      </h2>
 				    </div>
 				    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
@@ -143,22 +145,22 @@
 			</div>
 			<!-- FIN PREGUNTAS COLAPSABLES -->
 		</main>
-				<!-- FIN CONTENIDO DE PAGINA -->
+		<!-- FIN CONTENIDO DE PAGINA -->
 		<!-- INICIO DEL FOOTER -->
 		<section class="container-fluid">
 			<footer class="row justify-content-around headFoot__fondo--gris footer__borde--superior index__margen--superior footer__padding--top">
 				<!-- INICIO LOGO -->
 				<div class="col-lg-4 footer__flex ">
-					<a href="index.html"><img src="../assets/logo-cei.png" alt="logo del lugar" width="300px"></a>
+					<a href="../index.html"><img src="../assets/globo.png" alt="logo del lugar" width="180px" ></a>
 				</div>
 				<!-- FIN LOGO -->
 				<!-- INICIO LINKS DE REDES -->
 				<div class="col-lg-4 footer__flex">
 					<h3 class="footer__subtitulo--fuente footer__subtitulo--paddingB ">Redes Sociales</h3>
 					<div>
-						<a href="https://www.facebook.com"><img src="../assets/facebook.png" alt="logo de facebook" class="footer__iconos--margin" width="50px"></a>
-						<a href="https://www.intagram.com"><img src="../assets/instagram.png" alt="logo de instagram"  class="footer__iconos--margin" width="50px"></a>
-						<a href="https://www.youtube.com"><img src="../assets/youtube.png" alt="logo de youtube" class="footer__iconos--margin" width="50px"></a>
+						<a href="https://www.facebook.com"><img src="../assets/facebook.png" alt="logo de facebook" class="footer__iconos--margin footer__transicion--escalar" width="60px"></a>
+						<a href="https://www.intagram.com"><img src="../assets/instagram.png" alt="logo de instagram"  class="footer__iconos--margin footer__transicion--escalar" width="60px"></a>
+						<a href="https://www.youtube.com"><img src="../assets/youtube.png" alt="logo de youtube" class="footer__iconos--margin footer__transicion--escalar" width="60px"></a>
 					</div>	
 				</div>
 				<!-- FIN LINKS DE REDES -->
@@ -166,9 +168,9 @@
 				<div class="col-lg-4 footer__flex ">
 					<h3 class="footer__subtitulo--fuente footer__subtitulo--paddingB">Contactanos</h3>
 					<div>
-						<p class="footer__info--fuente"><img src="../assets/telefono.png" alt="logo de telefono" width="40px">    221-420-7682</p>					
-						<p class="footer__info--fuente"><img src="../assets/whatsapp.png" alt="logo de whatsapp" width="40px">   221-527-2481</p>
-						<p class="footer__info--fuente"><img src="../assets/email.png" alt="logo de email" width="40px">   cei_contacto@gmail.com</p>
+						<p class="footer__info--fuente"><img src="../assets/telefono-1.png" alt="logo de telefono" width="50px">    221-420-7682</p>					
+						<p class="footer__info--fuente"><img src="../assets/whatsapp-1.png" alt="logo de whatsapp" width="50px">   221-527-2481</p>
+						<p class="footer__info--fuente"><img src="../assets/email-1.png" alt="logo de email" width="50px">   cei_contacto@gmail.com</p>
 					</div>	
 				</div>
 				<!-- FIN DATOS DE CONTACTO -->
@@ -178,7 +180,7 @@
 		<!-- INICIO COPYRIGHT -->
 		<section class="container-fluid">
 			<div class="row justify-content-center headFoot__fondo--gris footer__padding--top">
-				<p class="col-lg-6 copy__fuente">© Todos los derechos reservados. Desarrollado por Antonela Peron</p>
+				<p class="col-lg-6 copy__fuente">© 2021 - Todos los derechos reservados - Desarrollado por Antonela Peron</p>
 			</div>
 		</section>	
 		<!-- FIN COPYRIGHT -->
@@ -187,5 +189,8 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 		<!-- LINK DE JAVASCRIPT PARA ANIMACIONES AOS -->
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>

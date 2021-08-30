@@ -15,6 +15,11 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+.header__logo--centrado{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 .index__banner--centrado{
 	display: flex;
 	flex-direction: row;
@@ -25,6 +30,12 @@
 }
 .index__parrafos--margenT{
 	margin-top: 200px;
+}
+.index__separador--margenT{
+	margin-top: 50px;
+}
+.index__parrafo2--margenT{
+	margin-top: 100px;
 }
 .header__logo--padding{
 	padding: 30px 0px;
@@ -58,6 +69,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 .contacto__formulario--margin{
 	margin-top: 20px;
@@ -73,9 +85,6 @@
 }
 .contacto__titulo--margin{
 	margin-top: 50px;
-}
-.fomulario__boton--tamaño{
-	width: 100px;
 }
 .idiomas__margen--superior{
 	margin-top: 100px;

@@ -15,6 +15,11 @@
   justify-content: flex-start;
   align-items: center; }
 
+.header__logo--centrado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 .index__banner--centrado {
   display: flex;
   flex-direction: row;
@@ -25,6 +30,12 @@
 
 .index__parrafos--margenT {
   margin-top: 200px; }
+
+.index__separador--margenT {
+  margin-top: 50px; }
+
+.index__parrafo2--margenT {
+  margin-top: 100px; }
 
 .header__logo--padding {
   padding: 30px 0px; }
@@ -57,7 +68,8 @@
 .contacto__formulario--flex {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 .contacto__formulario--margin {
   margin-top: 20px; }
@@ -73,9 +85,6 @@
 
 .contacto__titulo--margin {
   margin-top: 50px; }
-
-.fomulario__boton--tamaño {
-  width: 100px; }
 
 .idiomas__margen--superior {
   margin-top: 100px; }
@@ -123,6 +132,9 @@ html {
   font-size: 2rem;
   text-align: justify; }
 
+.index__parrafos--altoLinea {
+  line-height: 4rem; }
+
 .cuerpo__subtitulos--fuente {
   font-family: "Roboto", sans-serif;
   font-size: 3.5rem; }
@@ -133,13 +145,17 @@ html {
 
 .footer__info--fuente {
   font-family: "Roboto", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold; }
 
 .copy__fuente {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   text-align: center; }
+
+.preguntas__subtitulos--fuente {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem; }
 
 .testimonios__nombres--fuente {
   font-family: "Roboto", sans-serif;
@@ -162,7 +178,7 @@ html {
 
 .contacto__form--fuente {
   font-family: "Roboto", sans-serif;
-  font-size: 2rem; }
+  font-size: 2.3rem; }
 
 .idiomas__subtitulo--fuente {
   font-family: "Roboto", sans-serif;
@@ -213,7 +229,8 @@ html {
   border: solid 5px #2D4C84;
   border-radius: 10px;
   background-color: #C4C4C4;
-  box-shadow: 9px 9px 5px 0px #939393; }
+  box-shadow: 9px 9px 5px 0px #939393;
+  padding: 0px 5px; }
 
 .cuerpo__tabla--bordes {
   border: solid 5px #2D4C84;
@@ -239,6 +256,9 @@ html {
   border-radius: 40px;
   box-shadow: 9px 9px 5px 0px #939393; }
 
+.carrusel__img--redondeada {
+  border-radius: 40px; }
+
 .nav__transicion--trasladar {
   transition: transform 0.5s; }
 
@@ -249,14 +269,14 @@ html {
   transition: transform 1s; }
 
 .footer__transicion--escalar:hover {
-  transform: scale(2); }
+  transform: scale(1.5); }
 
 .preguntas__icono--trasladar {
   transform: translateX(-20px);
   transition: transform 1s; }
 
 .preguntas__icono--trasladar:hover {
-  transform: translateX(15px); }
+  transform: translateX(10px); }
 
 .formulario__transicion--scale {
   transition: all 1s; }
@@ -265,11 +285,18 @@ html {
   transform: scale(1.2); }
 
 .formulario__boton--transicion:focus {
-  box-shadow: inset -9px -9px 5px 0px #939393;
-  transform: translate(9px, 9px); }
+  box-shadow: 0px 0px 0px 0px #939393;
+  transform: translate(9px, 9px);
+  background-color: #8a8a8a; }
 
 .error__img--transicion {
   transition: transform 1s; }
 
 .error__img--transicion:hover {
   transform: rotate(-20deg); }
+
+.fomulario__boton--tamaño {
+  width: 100px; }
+
+.contacto__info--tamaño {
+  width: 400px; }

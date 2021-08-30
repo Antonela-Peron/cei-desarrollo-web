@@ -14,6 +14,9 @@ $parrafoDesk: 2rem;
 	font-size: $parrafoDesk;
 	text-align: justify;
 }
+.index__parrafos--altoLinea{
+	line-height: 4rem;
+}
 .cuerpo__subtitulos--fuente{
 	font-family: $roboto;
 	font-size: 3.5rem;
@@ -24,13 +27,17 @@ $parrafoDesk: 2rem;
 }
 .footer__info--fuente{
 	font-family: $roboto;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	font-weight: bold;
 }
 .copy__fuente{
 	font-family: $roboto;
 	font-size: 1.3rem;
 	text-align: center;
+}
+.preguntas__subtitulos--fuente{
+	font-family: $roboto;
+	font-size: 3rem;
 }
 .testimonios__nombres--fuente{
 	font-family: $roboto;
@@ -53,7 +60,7 @@ $parrafoDesk: 2rem;
 }
 .contacto__form--fuente{
 	font-family: $roboto;
-	font-size: 2rem;
+	font-size: 2.3rem;
 }
 .idiomas__subtitulo--fuente{
 	font-family: $roboto;

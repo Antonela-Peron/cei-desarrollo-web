@@ -8,14 +8,14 @@
 	transition: transform 1s;
 }
 .footer__transicion--escalar:hover{
-	transform: scale(2);
+	transform: scale(1.5);
 }
 .preguntas__icono--trasladar{
 	transform: translateX(-20px);
 	transition: transform 1s;
 }
 .preguntas__icono--trasladar:hover{
-	transform: translateX(15px);
+	transform: translateX(10px);
 }
 .formulario__transicion--scale{
 	transition: all 1s;
@@ -24,8 +24,9 @@
 	transform: scale(1.2);
 }
 .formulario__boton--transicion:focus{
-	box-shadow: inset -9px -9px 5px 0px #939393;
+	box-shadow: 0px 0px 0px 0px #939393;
 	transform: translate(9px, 9px);
+	background-color: #8a8a8a;
 }
 .error__img--transicion{
 	transition: transform 1s;
