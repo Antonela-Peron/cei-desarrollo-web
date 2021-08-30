@@ -22,9 +22,9 @@ michalsnik.github.io/aos/, una para mi página Index y otra la mi página Testim
 		  -los items de la nav se trasladan,
 		  -los iconos de redes sociales del footer se escalan,
      		  -y los íconos de las preguntas en la página Preguntas Frecuentes 
-		    se trasladan 
+		    se trasladan .
   -al hacer click:
-                  -los campos del formulario de la página Contacto se escalan
-                  -el boton del formulario se traslada y cambia de color 
->El sitio está desarrollado de manera responsive para su navegación en diferentes tamaños
->También tiene incorporación de una desccripción corta y palabras clave para el SEO
+                  -los campos del formulario de la página Contacto se escalan,
+                  -el boton del formulario se traslada y cambia de color .
+>El sitio está estilado de manera responsive para su navegación en diferentes tamaños.
+>También tiene incorporación de una desccripción corta y palabras clave para el SEO.
