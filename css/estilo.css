@@ -109,6 +109,10 @@
 .idiomas__tabla--margen {
   margin-top: 20px; }
 
+.idiomas__tabla--margenLados {
+  margin-left: 30px;
+  margin-right: 30px; }
+
 .idiomas__tabla--centrada {
   display: flex;
   flex-direction: column;
@@ -118,6 +122,10 @@
   display: flex;
   flex-direction: row;
   justify-content: center; }
+
+.tablas__padding--lateral {
+  padding-right: 50px;
+  padding-left: 50px; }
 
 .error__imgs--flex {
   display: flex;
