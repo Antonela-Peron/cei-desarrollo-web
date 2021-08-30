@@ -3,7 +3,9 @@ Peron Antonela - Proyecto final del curso Desarrllo web de Coderhouse 2021 - Cam
 Para mi pryecto hice una página sobre un centro de enseñanza de idiomas inventado. 
 >Las clases están nombradas con metodología BEM y combinada con camelCase en determinados 
 casos puntuales donde la primera no fue suficiente.
->Todas las páginas del sitio están linkeadas entre sí.
+>Todas las páginas del sitio están linkeadas entre sí en la barra de navegación.
+>También hay enlaces para volver al Index del sitio tanto en el logo del header como en 
+el del footer.
 >Seccioné los archivos de estilo scss en categorias y los uní mediante @import al archivo 
 scss principal.
 >Todos los tamaños de las tipografías están delimitados con unidad rem.
