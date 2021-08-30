@@ -371,6 +371,9 @@ html {
     margin-top: 50px; }
   .idiomas__boton--tamaño {
     width: 350px; }
+  .tablas__padding--lateral {
+    padding-right: 0px;
+    padding-left: 0px; }
   .preguntas__subtitulos--fuente {
     font-size: 2.5rem; }
   .preguntas__parrafos--fuente {
@@ -422,6 +425,9 @@ html {
     margin-top: 50px; }
   .idiomas__boton--tamaño {
     width: 250px; }
+  .tablas__padding--lateral {
+    padding-right: 0px;
+    padding-left: 0px; }
   .preguntas__subtitulos--fuente {
     font-size: 2rem; }
   .preguntas__parrafos--fuente {
@@ -466,14 +472,17 @@ html {
   .index__banner--tamaños {
     width: 300px; }
   .cuerpo__parrafos--fuente {
-    font-size: 1.8rem; }
+    font-size: 1rem; }
   .cuerpo__subtitulos--fuente {
-    font-size: 2.8rem; }
+    font-size: 2.2rem; }
   .idiomas__tabla--paddingT {
     padding-top: 50px;
     margin-top: 50px; }
   .idiomas__boton--tamaño {
     width: 250px; }
+  .tablas__padding--lateral {
+    padding-right: 20px;
+    padding-left: 20px; }
   .preguntas__subtitulos--fuente {
     font-size: 1.2rem; }
   .preguntas__parrafos--fuente {
